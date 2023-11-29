@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MySchedule"
+rootProject.name = "Sqlite"
 include(":app")

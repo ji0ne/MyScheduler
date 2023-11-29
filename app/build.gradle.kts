@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "net.hananet.bns2.myschedule"
+    namespace = "kr.ac.uc.sqlite"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "net.hananet.bns2.myschedule"
+        applicationId = "kr.ac.uc.sqlite"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
