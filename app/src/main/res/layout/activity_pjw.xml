@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".ActivityPjw">
 
+    <EditText
+        android:id="@+id/et_pjw_insertText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="db에 넣을 내용을 입력해 주세요 ..."
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_pjw_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/et_pjw_insertText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="입력한 내용 DB에 넣기" />
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@+id/btn_pjw_input"
+        android:id="@+id/layout_pjw_showDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_pjw_read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DB 읽어오기" />
+
+        <TextView
+            android:id="@+id/tv_pjw_readDb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="여기에 DB가 표시됩니다 ." />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
