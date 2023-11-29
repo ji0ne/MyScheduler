@@ -1,3 +1,4 @@
+// test
 package net.hananet.bns2.myschedule;
 
 import androidx.appcompat.app.AppCompatActivity;
